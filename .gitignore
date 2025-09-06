@@ -1,0 +1,19 @@
+# Archivos de base de datos y datos locales
+database.sqlite
+*.log
+*.journal
+
+# Configuraciones locales
+config
+.env
+
+# Archivos temporales
+*.tmp
+*.bak
+
+# Archivos de Excel o binarios pesados (opcional)
+*.xlsb
+*.xlsx
+
+# Carpeta de nodos descargados (si no quieres subir node_modules)
+nodes/node_modules/
