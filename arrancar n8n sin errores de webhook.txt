@@ -1,0 +1,5 @@
+arrancar n8n
+
+abre docker y arranca el contenedor
+en powershell y dentro del proyecto arranca ngroq con ngrok http 5678
+en otro powershell arranca PS C:\Users\cnava\n8n-data> docker-compose up -d pero antes abre docker-compose y pon la url que nos da ngrok en su pantalla de powershell
