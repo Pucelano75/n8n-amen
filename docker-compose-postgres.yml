@@ -1,0 +1,10 @@
+
+services:
+  n8n:
+    image: n8nio/n8n:latest
+    ports:
+      - '5678:5678'
+    environment:
+      - WEBHOOK_URL=https://895f28d8d30a.ngrok-free.app              
+    volumes:
+      - ./:/home/node/.n8n
